@@ -21,7 +21,7 @@ Route::group(['prefix' => 'admin'], function() {
 
 // phplalavel 09 kadai09
 
-Route::get('http://XXXXXX.jp/XXX','AAAController\bbb@add');
+Route::get('XXX','AAAController@bbb');
 
 // kadai4
 Route::get('admin/profile/create', 'Admin\ProfileController@add');
